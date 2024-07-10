@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo del Campo - Experto en Creación de Productos Alimenticios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .about, .services, .contact {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .contact-info {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Gustavo del Campo</h1>
+        <p>Experto en Creación de Productos Alimenticios</p>
+    </header>
+    <div class="container">
+        <section class="about">
+            <h2>Sobre Mí</h2>
+            <p>Soy Gustavo del Campo, un experto en la creación de productos alimenticios que pueden ser producidos masivamente según las necesidades del cliente. Reviso el mercado mundial y las tendencias para proponer productos innovadores o competitivos. Además, defino y entrego el proceso de producción masiva, optimizando ingredientes y procesos para una mayor eficiencia en costos, así como las presentaciones e imagen del producto.</p>
+        </section>
+        <section class="services">
+            <h2>Servicios</h2>
+            <p>Ofrezco una gama completa de servicios que incluyen:</p>
+            <ul>
+                <li>Investigación de mercado y análisis de tendencias globales.</li>
+                <li>Propuestas de productos innovadores y competitivos.</li>
+                <li>Definición de procesos industriales para la producción masiva.</li>
+                <li>Optimización de ingredientes y procesos para eficiencia en costos.</li>
+                <li>Desarrollo de presentaciones e imagen de producto.</li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2>Contacto</h2>
+            <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico a:</p>
+            <p class="contact-info">123@gmail.com</p>
+        </section>
+    </div>
+</body>
+</html>
